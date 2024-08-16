@@ -1,3 +1,5 @@
+<%@ page contentType= "text/html;charset=UTF-8" %>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,6 +9,6 @@
     <body>
         Olá Mundo!!!! <br />
         Ol&aacute; Mundo!!! <br />
-        Arquivo Simples
+        Eu Amo Oriente 
     </body>
 </html>
