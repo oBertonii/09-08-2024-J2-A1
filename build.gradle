@@ -1,12 +1,18 @@
 plugins {
-    id 'java'
-    id 'application'
+    id 'war'
+    id 'org.gretty' version '4.0.3'
+
 }
 
 repositories {
     mavenCentral()
 }
 
-application {
-    mainClass = 'primeiraaula.Principal'
+dependencies {
+    implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.1'
+    
+}
+
+gretty {
+    contextPath = '/'
 }
